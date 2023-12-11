@@ -1,0 +1,79 @@
+main>h2 {
+    position: relative;
+    top: 5vw;
+    font-size: 2vw;
+    text-align: center;
+    text-decoration: underline;
+}
+
+main>img {
+    position: absolute;
+    top: 11vw;
+    left: 12.5vw;
+    width: 15vw;
+    border: 1px black solid;
+    border-radius: 30px;
+}
+
+main>p:nth-child(3) {
+    position: absolute;
+    top: 28vw;
+    left: 12.5vw;
+    width: 15vw;
+    height: 2vw;
+    font-size: 1.25vw;
+    text-align: center;
+    line-height: 2vw;
+    border: 1px black solid;
+    border-radius: 10px;
+}
+
+main>p:nth-child(4) {
+    position: absolute;
+    top: 13vw;
+    left: 35vw;
+    width: 50vw;
+    font-size: 1.25vw;
+    text-align: center;
+    border: 1px black solid;
+    border-radius: 10px;
+}
+
+main>a:nth-child(5) {
+    position: absolute;
+    top: 25vw;
+    left: 50vw;
+    width: 16vw;
+    height: 2vw;
+    text-align: center;
+    line-height: 2vw;
+    text-decoration: none;
+    font-size: 1.25vw;
+    color: black;
+}
+
+main>a:nth-child(5):hover {
+    color: lightgray;
+}
+
+main>a:nth-child(6) {
+    position: absolute;
+    top: 28vw;
+    left: 50vw;
+    width: 16vw;
+    height: 2vw;
+    text-align: center;
+    line-height: 2vw;
+    text-decoration: none;
+    font-size: 1.25vw;
+    color: black;
+    background-image: url("../menu.png");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vw;
+    border: 1px black solid;
+    border-radius: 5px;
+}
+
+main>a:nth-child(6):hover {
+    opacity: 0.5;
+}

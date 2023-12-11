@@ -1,0 +1,107 @@
+main>h2 {
+    position: relative;
+    top: 5vw;
+    font-size: 2vw;
+    text-align: center;
+    text-decoration: underline;
+}
+
+main>p:nth-child(2) {
+    position: absolute;
+    top: 11vw;
+    left: 29.5vw;
+    width: 18vw;
+    font-size: 1.25vw;
+    text-align: center;
+    border: 1px black solid;
+    border-radius: 10px;
+}
+
+main>p:nth-child(3) {
+    position: absolute;
+    top: 11vw;
+    left: 52.5vw;
+    width: 18vw;
+    font-size: 1.25vw;
+    text-align: center;
+    border: 1px black solid;
+    border-radius: 10px;
+}
+
+main>p:nth-child(4) {
+    position: absolute;
+    top: 18vw;
+    left: 41vw;
+    width: 18vw;
+    font-size: 1.25vw;
+    text-align: center;
+    border: 1px black solid;
+    border-radius: 10px;
+}
+
+main>a:nth-child(5) {
+    position: absolute;
+    top: 23vw;
+    left: 42.5vw;
+    text-decoration: none;
+    font-size: 1.25vw;
+    color: black;
+}
+
+main>a:nth-child(5):hover {
+    color: lightgray;
+}
+
+hr {
+    position: absolute;
+    top: 26vw;
+    left: 35vw;
+    width: 30vw;
+}
+
+main>h4 {
+    position: absolute;
+    top: 27.5vw;
+    left: 42.5vw;
+    width: 15vw;
+    height: 2vw;
+    font-size: 1.25vw;
+    text-align: center;
+    line-height: 2vw;
+    border: 1px black solid;
+    border-radius: 10px;
+}
+
+main>a>img {
+    position: absolute;
+    top: 30.5vw;
+    left: 48.5%;
+    width: 3vw;
+    height: 3vw;
+}
+
+table {
+    position: relative;
+    top: 32.5vw;
+    left: 28.25vw;
+    width: 45vw;
+    height: 2vw;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+td, th {
+    font-size: 1.25vw;
+    width: 2vw;
+    height: 1.75vw;
+    border: 1px black solid;
+}
+
+main>table>tbody>tr>td>a {
+    text-decoration: none;
+    color: black;
+}
+
+main>table>tbody>tr>td>a:hover {
+    color: lightgray;
+}

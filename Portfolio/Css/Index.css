@@ -1,0 +1,29 @@
+main>h3 {
+    position: relative;
+    top: 5vw;
+    font-size: 2vw;
+    text-align: center;
+    text-decoration: underline;
+}
+
+main>img {
+    position: absolute;
+    top: 12vw;
+    left: 35vw;
+    width: 30vw;
+    height: 20vw;
+    border: 1px black solid;
+}
+
+main>h4 {
+    position: absolute;
+    top: 35vw;
+    left: 37.5vw;
+    width: 25vw;
+    height: 2.25vw;
+    text-align: center;
+    font-size: 1.25vw;
+    line-height: 2.25vw;
+    border: 1px black solid;
+    border-radius: 5px;
+}

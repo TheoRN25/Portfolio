@@ -1,0 +1,138 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-image: url("font.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 120vw;
+}
+
+nav {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 3.5vw;
+    background-image: url("menu.png");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vw;
+    border: 1px black solid;
+}
+
+header>nav>h2 {
+    position: absolute;
+    top: 0.50vw;
+    left: 1vw;
+    font-size: 2vw;
+    color: black;
+}
+
+header>nav>a {
+    font-size: 1.3vw;
+    text-decoration: none;
+    color: black;
+    height: 3.415vw;
+    text-align: center;
+}
+
+header>nav>a:nth-child(2)>p, header>nav>a:nth-child(3)>p, header>nav>a:nth-child(4)>p {
+    position: absolute;
+    left: 1.5vw;
+}
+
+header>nav>a:nth-child(5)>p {
+    position: absolute;
+    left: 1.75vw;
+}
+
+header>nav>a:nth-child(6)>p {
+    position: absolute;
+    left: 2vw;
+}
+
+header>nav>a:hover {
+    opacity: 0.25;
+}
+
+header>nav>a:nth-child(2) {
+    position: absolute;
+    left: 10%;
+    width: 11%;
+    border-left: 1px black solid;
+    border-right: 1px black solid;
+}
+
+header>nav>a:nth-child(3) {
+    position: absolute;
+    left: 21.2%;
+    width: 10%;
+    border-right: 1px black solid;
+}
+
+header>nav>a:nth-child(4) {
+    position: absolute;
+    left: 31.2%;
+    width: 10%;
+    border-right: 1px black solid;
+}
+
+header>nav>a:nth-child(5) {
+    position: absolute;
+    left: 41.3%;
+    width: 10%;
+    border-right: 1px black solid;
+}
+
+header>nav>a:nth-child(6) {
+    position: absolute;
+    left: 51.4%;
+    width: 8.5%;
+    border-right: 1px black solid;
+}
+
+header>nav>a:nth-child(7) {
+    position: absolute;
+    left: 61%;
+    font-size: 1.25vw;
+    border: 0px;
+}
+
+header>nav>a>img {
+    position: absolute;
+    top: 0.6vw;
+    width: 3.5vw;
+    height: 2.25vw;
+    border: 1px black solid;
+}
+
+header>nav>a>p {
+    position: absolute;
+    top: 1.1vw;
+    left: 4.5vw;
+}
+
+header>nav>p {
+    position: absolute;
+    top: 1vw;
+    right: 1vw;
+    font-size: 1.25vw;
+    color: black;
+    text-decoration: underline;
+}
+
+header>nav>h6 {
+    position: absolute;
+    top: 1.25vw;
+    right: 12.5vw;
+    font-size: 1vw;
+    color: black;
+}
+
+header>nav>p>img {
+    position: absolute;
+    top: -0.25vw;
+    right: 8.5vw;
+    width: 2vw;
+    height: 2vw;
+}

@@ -1,0 +1,85 @@
+main>h2 {
+    position: relative;
+    top: 5vw;
+    font-size: 2vw;
+    text-align: center;
+    text-decoration: underline;
+}
+
+main>p:nth-child(2) {
+    position: absolute;
+    top: 10vw;
+    left: 42.5vw;
+    width: 14vw;
+    height: 2vw;
+    font-size: 1.25vw;
+    text-align: center;
+    border-left: 1px black solid;
+    border-top: 1px black solid;
+    border-right: 1px black solid;
+    border-radius: 10px;
+}
+
+main>p:nth-child(3) {
+    position: absolute;
+    top: 12vw;
+    left: 39.5vw;
+    width: 20vw;
+    font-size: 1.25vw;
+    text-align: center;
+    border: 1px black solid;
+    border-radius: 10px;
+}
+
+main>div>input {
+    width: 1vw;
+}
+
+main>div>label {
+    font-size: 1.25vw;
+}
+
+main>div:nth-child(4) {
+    position: absolute;
+    top: 23vw;
+    left: 36.5vw;
+}
+
+main>div:nth-child(5) {
+    position: absolute;
+    top: 23vw;
+    left: 47vw;
+}
+
+main>div:nth-child(6) {
+    position: absolute;
+    top: 23vw;
+    left: 58vw;
+}
+
+table {
+    position: relative;
+    top: 24vw;
+    left: 25vw;
+    width: 50vw;
+    height: 2vw;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+td, th {
+    font-size: 1.25vw;
+    width: 2vw;
+    height: 1.75vw;
+    border: 1px black solid;
+}
+
+li {
+    list-style-position: inside;
+}
+
+hr {
+    position: relative;
+    top: 28vw;
+    visibility: hidden;
+}
